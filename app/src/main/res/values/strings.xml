@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">KPweek4Task1-2</string>
+    <string name="menu">Меню</string>
+    <string name="search">Поиск</string>
+    <string name="options">Настройки</string>
+    <string name="exit">Выход</string>
+    <string name="google">Google</string>
+    <string name="yandex">Yandex</string>
+    <string name="bing">Bing</string>
+    <string name="search_hint">Search...</string>
+    <string name="search_button">SEARCH</string>
+    <string name="empty_search_request">Пустой запрос</string>
+    <string name="mainfragment">Главная</string>
+    <string name="mainlist">Главная страница</string>
+</resources>
