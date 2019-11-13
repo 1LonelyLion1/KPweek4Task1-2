@@ -15,7 +15,7 @@ import androidx.fragment.app.Fragment;
 public class OptionsSearchFragment extends Fragment {
 
     private SharedPreferencesLogic mSharedPreferences;
-    RadioGroup searchGroup;
+    private RadioGroup searchGroup;
 
 
     public static OptionsSearchFragment newInstance(){
@@ -39,10 +39,11 @@ public class OptionsSearchFragment extends Fragment {
         mSharedPreferences = new SharedPreferencesLogic(getActivity());
 
         int idSearchSystem = mSharedPreferences.LoadSearchPrefernces();
-        if(idSearchSystem != 1){
+        if(idSearchSystem != -1){
             RadioButton seachButton = v.findViewById(idSearchSystem);
             seachButton.setChecked(true);
         }
+
         return v;
     }
 

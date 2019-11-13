@@ -16,18 +16,21 @@
             android:id="@+id/google_search"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="true"
             android:text="@string/google" />
 
         <RadioButton
             android:id="@+id/yandex_search"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="false"
             android:text="@string/yandex" />
 
         <RadioButton
             android:id="@+id/Bing_search"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="false"
             android:text="@string/bing" />
     </RadioGroup>
 
